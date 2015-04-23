@@ -27,6 +27,7 @@
 	height: 50px;
 	background-color: #ECF0F1;
 	position: relative;
+	-moz-transform: translateX(10px);
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
@@ -53,6 +54,11 @@
 	position: fixed;
 	bottom: 0; 
 	left: 0;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	width: 25%;
+	border: 1px solid #BFBFBF;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
