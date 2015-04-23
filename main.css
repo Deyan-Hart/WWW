@@ -27,6 +27,7 @@
 	height: 50px;
 	background-color: #ECF0F1;
 	position: relative;
+	-webkit-transform: translateX(10px);
 	-moz-transform: translateX(10px);
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
