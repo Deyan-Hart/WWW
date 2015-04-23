@@ -1,0 +1,83 @@
+/* CSS main code created by Deyan on 4/22/15 */
+
+.navBar { /* Sets navbar properties so it remains on the left hand side of the page at all times */
+	background-color: #EEEEEE;
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	-webkit-box-shadow: 0px 0px 7px -1px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 7px -1px rgba(0,0,0,1);
+	box-shadow: 0px 0px 7px -1px rgba(0,0,0,1);
+}
+
+.logo { /* Sets the size and position of each logo */
+	width: 50px;
+	height: 50px;
+	background-color: #ECECEC;
+	position: relative;
+	border-bottom: 1px solid #BFBFBF;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.logo:hover { /* Makes logo darker as if you are pushing in on the logo */
+	width: 50px;
+	height: 50px;
+	background-color: #ECF0F1;
+	position: relative;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
+}
+
+.moreButton { /* Will contain icons/links to our pages such as Twitter and Facebook */
+	position: fixed;
+	bottom: 0; 
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background-color: #ECECEC;
+	border-top: 1px solid #BFBFBF;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.moreButton:hover { /* Makes this button darker as if you are pushing in on this button */
+	width: 50px;
+	height: 50px;
+	background-color: #ECF0F1;
+	position: fixed;
+	bottom: 0; 
+	left: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.75);
+}
+
+.logo>div { /* Sets the div outside the logo to position it near the center of the outside */
+	position: relative;
+	left: 60px;
+	top: 10px;
+	width: 165%;
+	visibility: hidden;
+} 
+
+.logo:hover>div { /* Displays the text in while hovering over the logo */
+	visibility: visible;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: cursive;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	background: rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5); 
+} 
