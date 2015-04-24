@@ -84,3 +84,14 @@
 	-moz-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5);
 	box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5); 
 }
+
+.searchBar { /* Positioning for the search bar */
+	float: right;
+}
+
+.centerWelcome {
+	width: 50%;
+	height: 50%;
+	margin-left: 160px;
+}
+
