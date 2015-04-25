@@ -92,9 +92,33 @@
 	box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5); 
 }
 
+/* Carousel CSS */
 .carousel { /* On the homepage, just the main container it is in. */
 	position: relative;
 	width: 100%;
 	height: 400px;
 	background: green;
+}
+
+.carousel-left{
+	position: relative;
+	width: 100px;
+	height: 100%;
+	background: blue;
+	float: left;
+}
+
+.carousel-right{
+	position: relative;
+	width: 100px;
+	height: 100%;
+	background: red;
+	float: right;
+}
+
+.carousel-bottom{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background: blue;
 }
