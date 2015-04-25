@@ -106,11 +106,11 @@
 	height: 100%;
 	background: blue;
 	float: left;
-}
+}                           
 
 .carousel-right{
 	position: relative;
-	width: 100px;
+	width: 100px;                  /*  Buttons for carousel */
 	height: 100%;
 	background: red;
 	float: right;
