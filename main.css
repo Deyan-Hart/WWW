@@ -122,25 +122,3 @@
 	height: 100px;
 	background: blue;
 }
-
-.circularDeyan { /* This is to make the about us images circular */
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	display: inline-block;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	background: url("img/profile_deyan.jpg") no-repeat;
-	background-size: 100% 100%;
-}
-
-.circularBrandon { /* This is to make the about us images circular */
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	display: inline-block;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	background: url("img/profile_brandon.jpg") no-repeat;
-	background-size: 100% 100%;
-}
