@@ -82,3 +82,11 @@
 	-moz-box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5);
 	box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.5); 
 }
+
+.main { /* Main content of the page, so we don't need to do weird positioning */
+	position: fixed;
+	width: calc(100% - 50px);
+	height: 100%;
+	right: 0;
+	top: 0;
+}
