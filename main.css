@@ -122,3 +122,12 @@
 	height: 100px;
 	background: blue;
 }
+
+.circular { /* This is to make the about us images circular */
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("img/no_copyright.png") no-repeat;
+}
