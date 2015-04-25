@@ -1,0 +1,36 @@
+/* Design elements (Stuff) specific to the about us page */
+
+.circularDeyan { /* This is to make the about us images circular */
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url("img/profile_deyan.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.circularBrandon { /* This is to make the about us images circular */
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url("img/profile_brandon.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.aboutUsTitle {
+	width: 100%;
+	text-align: center;
+}
+
+.profilePosition { /* Position of the profile picture divs */
+	float: left;
+	width: 50%;
+}
+
+.aboutUsTeamTitle {
+	width: 100%;
+	text-align: center;
+}
