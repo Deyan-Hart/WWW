@@ -130,4 +130,5 @@
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url("img/no_copyright.png") no-repeat;
+	background-size: 100% 100%;
 }
