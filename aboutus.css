@@ -20,7 +20,7 @@
 	background-size: 100% 100%;
 }
 
-.aboutUsTitle {
+.aboutUsTitle { /* About us info such as what our company is */
 	width: 100%;
 	text-align: center;
 }
@@ -30,7 +30,7 @@
 	width: 50%;
 }
 
-.aboutUsTeamTitle {
+.aboutUsTeamTitle { /* Profile pictures will be under this along with the text */
 	width: 100%;
 	text-align: center;
 }
