@@ -34,3 +34,8 @@
 	width: 100%;
 	text-align: center;
 }
+
+.textPadding {
+	padding-right: 10%;
+	padding-left: 10%; 
+}
